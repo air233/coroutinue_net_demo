@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c89f12c0-9c72-45d6-99ab-0f739cc8b186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="iocontext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="awaiters.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="task.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="iocontext.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="awaiters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
